@@ -1,0 +1,41 @@
+@{
+    ViewBag.Title = "Cadastrar transacão!";
+    Layout ="MasterPageDeslogado";
+}
+
+<div class="formulario">
+    <form action="/Transacao/Cadastrar" method="POST">
+
+        <h1> Cadastro de Transações </h1>
+
+        <label> Descrição: 
+            <input class="desc" type="text" name="descricao" placeholder="Insira a descrição da transação realizada..." required="true">
+        </label>
+
+        <label> Valor:
+            <input type="number" name="valor" placeholder="Insira o valor da transação realizada..." required="true">
+        </label>
+
+        <label> Tipo:
+            <select class="selectstyle" name="tipo" required="true">
+                <option value=""> Selecione </option>
+                <option value="despesa"> Despesa</option>
+                <option value="receita">Receita</option>
+            </select>
+        </label>
+
+        <label> Data:
+            <input type="date" name="data" required="true">
+        </label>
+
+        <input class="botao" type="submit" value="Cadastrar">
+        <a href="/Usuario/Login"> Sair </a>
+
+    </form>
+
+    <section>
+        <div class="divalert">
+            @ViewBag.Mensagem
+        </div>
+    </section>
+</div>

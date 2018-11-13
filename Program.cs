@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Teste_WEB_MVC
+namespace Projeto_Financeiro_WEB_MVC
 {
     public class Program
     {

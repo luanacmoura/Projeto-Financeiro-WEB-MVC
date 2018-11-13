@@ -1,0 +1,28 @@
+@{
+    ViewBag.Title = "Login";
+    Layout ="MasterPageDeslogado";
+}
+
+<div class="formulario">
+    <form action="/Usuario/Login" method="POST">
+
+        <h1> Login </h1>
+
+        <label> Email: 
+            <input class="desc" type="text" name="email" placeholder="Insira o seu email..." required="true">
+        </label>
+
+        <label> Senha:
+            <input type="password" name="senha" placeholder="Insira a sua senha..." required="true">
+        </label>
+
+        <input class="botao" type="submit" value="Login">
+        <a href="/Usuario/Cadastrar"> Novo aqui? Cadastre-se! </a>
+    </form>
+
+    <section>
+        <div class="divalert">
+            @ViewBag.Mensagem
+        </div>
+    </section>
+</div>

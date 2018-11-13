@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\46863229870\\Projeto_Financeiro-WEB-MVC\\Teste_WEB-MVC\\Teste_WEB-MVC.csproj",
-      "projectName": "Teste_WEB-MVC",
-      "projectPath": "C:\\Users\\46863229870\\Projeto_Financeiro-WEB-MVC\\Teste_WEB-MVC\\Teste_WEB-MVC.csproj",
+      "projectUniqueName": "C:\\Users\\46863229870\\Projeto_Financeiro-WEB-MVC\\Projeto_Financeiro-WEB-MVC.csproj",
+      "projectName": "Projeto_Financeiro-WEB-MVC",
+      "projectPath": "C:\\Users\\46863229870\\Projeto_Financeiro-WEB-MVC\\Projeto_Financeiro-WEB-MVC.csproj",
       "packagesPath": "C:\\Users\\46863229870\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\46863229870\\Projeto_Financeiro-WEB-MVC\\Teste_WEB-MVC\\obj\\",
+      "outputPath": "C:\\Users\\46863229870\\Projeto_Financeiro-WEB-MVC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

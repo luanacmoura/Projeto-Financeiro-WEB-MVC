@@ -1,0 +1,36 @@
+@{
+    ViewBag.Title = "Cadastro de usuário!";
+    Layout ="MasterPageDeslogado";
+}
+
+<div class="formulario">
+
+    <form action="/Usuario/Cadastrar" method="Post"> <!--Tem que informar o endereço(rota)-->    
+        <h1> Cadastro de Usuário </h1>
+
+        <label> Nome:
+            <input type="text" name="nome">
+        </label>
+
+        <label> Email:
+            <input type="email" name="email">
+        </label>
+
+        <label> Senha:
+            <input type="password" name="senha">
+        </label>
+
+        <label> Data de nascimento:
+            <input type="date" name="dataNascimento">
+        </label>
+
+        <input class="botao" type="submit" value="Enviar">
+        <a href="/Usuario/Login"> Já possui conta? Faça login! </a>
+    </form>
+
+    <section>
+        <div class="divalert">
+            @ViewBag.Mensagem
+        </div>
+    </section>
+</div>
